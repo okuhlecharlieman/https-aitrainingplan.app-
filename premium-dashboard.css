@@ -115,6 +115,7 @@ body {
   box-sizing: border-box;
   min-height: calc(100svh - 82px);
   padding: clamp(56px, 8vh, 92px) 24px clamp(40px, 6vh, 72px) !important;
+  padding: clamp(88px, 11vw, 140px) 24px 96px !important;
 }
 
 .ptp-hero__inner {
@@ -122,6 +123,7 @@ body {
   display: grid !important;
   grid-template-columns: minmax(0, 0.9fr) minmax(400px, 1.1fr) !important;
   gap: clamp(36px, 5vw, 78px) !important;
+  gap: clamp(48px, 7vw, 104px) !important;
   align-items: center !important;
 }
 
@@ -131,6 +133,7 @@ body {
 
 .ptp-hero__badge {
   margin-bottom: clamp(16px, 3vh, 24px) !important;
+  margin-bottom: 28px !important;
   padding: 8px 13px !important;
   border: 1px solid var(--dashboard-line) !important;
   border-radius: 999px !important;
@@ -155,6 +158,7 @@ body {
   max-width: 580px !important;
   margin: 0 !important;
   font-size: clamp(3rem, 6.6vw, 5.7rem) !important;
+  font-size: clamp(3.4rem, 7.6vw, 6.4rem) !important;
 }
 
 .ptp-hero__rotating,
@@ -182,11 +186,13 @@ body {
   max-width: 470px !important;
   min-height: 0 !important;
   margin: clamp(18px, 3vh, 24px) 0 0 !important;
+  margin: 28px 0 0 !important;
   opacity: 0.92;
 }
 
 .ptp-hero__actions {
   margin-top: clamp(24px, 4vh, 34px) !important;
+  margin-top: 42px !important;
   gap: 14px !important;
 }
 
@@ -230,6 +236,7 @@ body {
   max-height: calc(100svh - 180px);
   overflow: hidden;
   padding: clamp(28px, 4vw, 44px) !important;
+  padding: clamp(32px, 5vw, 56px) !important;
   border-radius: 44px !important;
   box-shadow: var(--dashboard-shadow) !important;
 }
@@ -237,6 +244,7 @@ body {
 .ptp-dashboard-card__header {
   align-items: start !important;
   margin-bottom: clamp(22px, 4vh, 34px) !important;
+  margin-bottom: 38px !important;
 }
 
 .ptp-dashboard-card__title,
@@ -592,6 +600,7 @@ body {
 
   .ptp-hero__visual {
     display: none !important;
+    font-size: clamp(3rem, 17vw, 4.5rem) !important;
   }
 
   .ptp-dashboard-card__stats,
